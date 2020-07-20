@@ -1,11 +1,22 @@
+:root {
+    --ck-widget-outline-thickness: 1px;
+    --ck-color-focus-border: black;
+    --ck-color-widget-hover-border: gray;
+}
+
 .placeholder {
     background: #ffff00;
     padding: 4px 2px;
     outline-offset: -2px;
     line-height: 1em;
     margin: 0 1px;
+    border-radius: 10px;
 }
 
 .placeholder::selection {
-    display: none;
+    display: block;
+}
+
+.ck .ck-widget .ck-widget_selected{
+    border-radius: 50%;
 }
