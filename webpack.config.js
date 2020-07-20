@@ -9,7 +9,7 @@ module.exports = {
     entry: './app.js',
 
     output: {
-        path: path.resolve( __dirname, 'dist' ),
+        path: path.resolve( __dirname, 'static' ),
         filename: 'bundle.js'
     },
 
